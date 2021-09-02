@@ -1,0 +1,12 @@
+server:
+  port: 6888
+spring:
+  aop:
+    auto: true
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/app
+    username: root
+    password: root

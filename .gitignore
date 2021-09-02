@@ -1,0 +1,4 @@
+# Project exclude paths
+/application/target/
+/application_test/target/
+/out/
